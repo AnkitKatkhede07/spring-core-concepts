@@ -1,0 +1,42 @@
+package com.bean_life_cycle;
+
+public class Employee {
+	private int id;
+	private String name;
+	private int sal;
+	
+   public Employee()
+   {
+	   System.out.println("I am constructor");
+   }
+   public void MyInit()
+   {
+	   System.out.println("this is the init method");
+   }
+   public void display() {
+		 System.out.println("I am utility method");
+	}
+	public void myDestroy() {
+		System.out.println("Iam destroy method");
+	}
+
+   	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getSal() {
+		return sal;
+	}
+	public void setSal(int sal) {
+		this.sal = sal;
+	}
+
+}

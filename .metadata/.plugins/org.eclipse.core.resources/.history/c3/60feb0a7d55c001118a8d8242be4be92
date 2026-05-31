@@ -1,0 +1,34 @@
+package com.base;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("c")
+public class Company {
+	@Autowired
+	private Employee emp;
+	
+	public void setEmploye(Employee emp) {
+		this.emp=emp;
+	}
+	public void showEmployee()
+	{
+		System.out.println(emp.getId()+"\t"+emp.getName()+"\t"+emp.getSal());
+	}
+	private int cid;
+	private String cname;
+
+	public int getCid() {
+		return cid;
+	}
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+	public String getName() {
+		return cname;
+	}
+	public void setName(String name) {
+		this.cname = name;
+	}
+
+}

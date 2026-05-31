@@ -1,0 +1,24 @@
+package com.base;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ConfigApp.ConfigApp;
+
+public class ClientApplictaion {
+
+	public static void main(String[] args) {
+
+	    AnnotationConfigApplicationContext context =
+	            new AnnotationConfigApplicationContext(ConfigApp.class);
+
+	    Employee emp = context.getBean(Employee.class);
+
+	    System.out.println(
+	            emp.getName() + "\t" +
+	            emp.getId() + "\t" +
+	            emp.getSal());
+
+	    context.close();
+	}
+
+}

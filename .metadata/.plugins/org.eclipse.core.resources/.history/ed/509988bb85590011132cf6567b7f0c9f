@@ -1,0 +1,19 @@
+package org.com.object;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("text.xml");
+            Parcel p=(Parcel)context.getBean("p");
+            System.out.println("Id : " + p.getId());
+            System.out.println("Name : " + p.getName());
+            System.out.println("Source Address : " + p.getSourceAddress());
+            System.out.println("Destination Address : " + p.getDestAddress());
+            System.out.println("From : " + p.getFrom());
+            System.out.println("To : " + p.getTo());
+            context.close();
+	}
+
+}

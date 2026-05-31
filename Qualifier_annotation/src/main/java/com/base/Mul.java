@@ -1,0 +1,29 @@
+package com.base;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component("mul")
+public class Mul implements Setval{
+	@Value("7")
+	private int a;
+	@Value("5")
+	private int b;
+
+	@Override
+	public void setA(int a) {
+		this.a=a;	
+	}
+
+	@Override
+	public void setB(int b) {
+		this.b=b;
+	}
+
+	@Override
+	public int getResult() {
+		
+		return a*b;
+	}
+
+}

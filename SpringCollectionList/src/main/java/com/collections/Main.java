@@ -1,0 +1,14 @@
+package com.collections;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+
+	public static void main(String[] args) {
+	    ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("text.xml");
+	  Employee emp=(Employee) context.getBean("e");
+	  emp.showList();
+	  context.close();
+	}
+
+}

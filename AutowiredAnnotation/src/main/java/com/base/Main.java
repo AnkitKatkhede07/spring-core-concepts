@@ -1,0 +1,17 @@
+package com.base;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import configur.Configure;
+
+public class Main {
+
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext(Configure.class);
+		Company comp=(Company)context.getBean("c");
+		comp.showEmployee();
+		System.out.println(comp.getCid()+"\t"+comp.getName());
+        context.close();
+	}
+
+}

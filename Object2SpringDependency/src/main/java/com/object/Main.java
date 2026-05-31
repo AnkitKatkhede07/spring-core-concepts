@@ -1,0 +1,15 @@
+package com.object;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("text.xml");
+		Courier  c=(Courier)context.getBean("c");
+		Parcel p=c.getParcel();
+		System.out.println(p.getId()+"\t"+p.getName()+"\t"+p.getPrice());	 
+		context.close();
+	}
+
+}

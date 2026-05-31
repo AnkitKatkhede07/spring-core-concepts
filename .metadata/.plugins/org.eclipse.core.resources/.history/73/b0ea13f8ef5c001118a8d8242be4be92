@@ -1,0 +1,51 @@
+package com.base.life;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component("e")
+public class Employee {
+private int id;
+private String name;
+private int sal;
+
+public Employee() {
+    System.out.println("I am constructor");
+}
+
+@PostConstruct
+public void myInit() {
+    System.out.println("This is init method");
+}
+
+@PreDestroy
+public void myDestroy() {
+    System.out.println("I am destroy method");
+}
+
+public void display() {
+    System.out.println("I am utility method");
+}
+//setter getter
+public int getId() {
+	return id;
+}
+@Value("1")
+public void setId(int id) {
+	this.id = id;
+}
+public String getName() {
+	return name;
+}
+@Value("Omkar")
+public void setName(String name) {
+	this.name = name;
+}
+public int getSal() {
+	return sal;
+}
+@Value("500000")
+public void setSal(int sal) {
+	this.sal = sal;
+}
+}

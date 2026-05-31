@@ -1,0 +1,10 @@
+package com.ConfigApp;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "com.base")
+public class ConfigApp {
+
+}

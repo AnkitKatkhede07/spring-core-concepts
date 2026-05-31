@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Spring core Progarm\spring_bean_life_cycle\src\main\java\com\bean_life_cycle\Employee.java"/>
+			<item value="D:\Spring core Progarm\AutowiredAnnotation\src\main\java\com\base\Company.java"/>
+			<item value="D:\Spring core Progarm\Object3Spring\src\main\java\com\object\ClientApplication.java"/>
+			<item value="D:\Spring core Progarm\Object2SpringDependency\pom.xml"/>
+			<item value="D:\Spring core Progarm\SpringCollectionList"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="org.comSpring"/>
+			<item value="com.bean_life_cycle"/>
+			<item value="com.spring.bean"/>
+			<item value="com.org.autowired"/>
+			<item value="com.annoation"/>
+			<item value="org.annotation"/>
+			<item value="com.object"/>
+			<item value="org.com.object"/>
+			<item value="org.com.map"/>
+			<item value="com.collections"/>
+			<item value="com.collection"/>
+			<item value="com.Constructor"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Qualifier_annotation"/>
+			<item value="bean_life_cycle_using_annotation"/>
+			<item value="spring_bean_life_cycle"/>
+			<item value="AutowiredAnnotation"/>
+			<item value="Annotation2"/>
+			<item value="AllAnnotation"/>
+			<item value="Object3Spring"/>
+			<item value="Object2SpringDependency"/>
+			<item value="SpringCollectionMap"/>
+			<item value="SpringCollectionSet"/>
+			<item value="SpringCollection"/>
+			<item value="ConstructorSpring"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

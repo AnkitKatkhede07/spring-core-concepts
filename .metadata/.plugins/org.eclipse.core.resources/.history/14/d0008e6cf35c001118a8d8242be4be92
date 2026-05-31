@@ -1,0 +1,23 @@
+package com.base;
+
+public class Add implements Setval {
+
+	@Override
+	public void setA(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setB(int b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getResult() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
