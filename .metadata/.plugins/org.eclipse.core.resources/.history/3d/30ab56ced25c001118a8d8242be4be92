@@ -1,6 +1,0 @@
-package com.base;
-
-public class Company {
-	private Employee emp;
-
-}
