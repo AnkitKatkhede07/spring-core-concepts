@@ -1,13 +1,13 @@
 package com.base;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("cal")
 public class Calculator {
     @Autowired
-//    @Qualifier("mul") this mannuly add for
+  @Qualifier("mul") 
 	
 	private Setval setval;
 	public void setOperation(Setval setVal) {
